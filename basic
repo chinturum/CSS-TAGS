@@ -1,0 +1,53 @@
+CSS Cheat Sheet
+A quick reference list of basic CSS properties for changing text, layout and colour of HTML elements, as well as how to include them in your web page.
+
+Not sure what CSS is, perhaps see the cascading style sheets introduction first :-)
+
+Using Styles
+An external CSS file
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" title="style">
+</head>
+
+
+Within the html header
+<head>
+<style type="text/css">
+ h1 {
+    color:red;
+    }
+</style>
+</head>
+
+
+Inline in the HTML
+<p style="color:red;">Some red text</p>
+
+
+Colours & Borders	
+color: red;				Element Colour - eg. red | #FF0000
+background-color: white;		Background Colour of element
+background-image: url(image.gif);	Background Colour of element
+border-color: yellow;			Border Colour of element
+border: 1px solid blue;			Width, style and colour of border defined together
+
+
+Text Styles	
+text-align: left;			Horizontal Alignment - left | center | right
+text-decoration: underline;		Text Decorations - eg. none | underline | line-through
+font-family: fontname;			Font Face (Typeface) - eg. Verdana, Arial, Helvetica
+font-size: 16pt;			Font Size or Height - eg. 12pt | 15px
+font-weight: bold;			Font Weight (Boldness) - eg. bold | normal | 200
+
+
+Size and Layout	
+width: 400px;				Width of HTML element - eg. 100px | 50%
+height: 100%;				Height of HTML element - eg. 20px | 100%
+margin: 5px;				Margin - space around an element, or distance between two elements
+margin-top: 1px;			Top Margin. Also try -bottom: -left: or -right:
+padding: 5px;				Padding - distance between an elements contents and its border
+padding-top: 1px;			Top Padding. Also try -bottom: -left: or -right:
+
+
+CSS Lists	
+list-style: none;			Clear existing bullet types set by html list tags
